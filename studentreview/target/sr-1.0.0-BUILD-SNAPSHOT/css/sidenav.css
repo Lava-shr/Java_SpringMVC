@@ -1,0 +1,82 @@
+/* Box containers */
+.jumbotron {
+	background-color: #ffffff;
+	margin: 0px 10px 5px;
+	padding: 2%;
+}
+
+/* drop down menu right-side */
+.float-right {
+	margin-right: 10px;
+}
+
+/* Collapsable course list */
+#secondary-side-bar {
+	margin-left: 160px!important;
+	height: 100%!important;
+	width: 200px!important;
+	position: fixed!important;
+	z-index: 5000!important;
+	background-color: #f1f1f1!important;
+}
+
+/* Sidebar links */
+#secondary-side-bar a {
+  display: block;
+  color: black;
+  padding: 16px;
+  text-decoration: none;
+}
+
+/* Links on mouse-over */
+#secondary-side-bar a:hover:not(.active) {
+  background-color:black;
+  color: white;
+}
+
+#courseList {
+	border-colour: black;
+	border-width: thick;
+}
+
+/* The side navigation menu */
+#main-side-bar {
+  margin: 0;
+  padding: 0;
+  width: 160px;
+  background-color: #000000;
+  position: fixed;
+  height: 100%;
+}
+
+/* Sidebar links */
+#main-side-bar a {
+  display: block;
+  color: white;
+  padding: 16px;
+  text-decoration: none;
+}
+
+/* Active/current link */
+#main-side-bar a.active {
+  background-color: orange;
+  color: black;
+}
+
+/* Links on mouse-over */
+#main-side-bar a:hover:not(.active) {
+  background-color: #f1f1f1;
+  color: black;
+}
+
+/* Page content. The value of the margin-left property should match the value of the sidebar's width property */
+div.content {
+  margin-left: 160px;
+  padding: 1px 16px;
+  height: 1000px;
+}
+
+.main {
+  margin-left: 160px; /* Same as the width of the sidenav */
+  font-size: 16px; /* Increased text to enable scrolling */
+}

@@ -1,0 +1,53 @@
+html {
+	overflow:hidden;
+}
+.login_background{
+	width: 450;
+    height: 450;
+    position: relative;
+    left: 38%;
+    border-radius: 10%;	
+}
+
+.login_div {
+	padding: 10;
+}
+
+.form_control{
+	font-size: 1.4rem;
+}
+
+.font-weight-normal {    
+ 			font-size: 2.1rem;
+ 		}
+ 		#logo{
+ 			vertical-align: middle;
+ 			position: relative;
+				top: -75;
+    height: 150;
+    width: 350;
+    border-radius: 10%;
+    margin-bottom: 15;
+ 		}
+ 		
+ 		.text {
+    top: -35;
+    position: relative;
+    -webkit-text-stroke: medium;
+}
+
+.form-line-active input:focus, .form-line-active textarea:focus {
+	border: 1px solid #c99914 !important;
+	box-shadow: 0 0 4px #c99914 !important;
+	-moz-box-shadow: 0 0 4px #c99914 !important;
+	-webkit-box-shadow: 0 0 4px #c99914 !important;
+}
+
+.loginButton{
+	position:relative!important;	
+	margin-top:20!important;
+}
+
+#inputPassword{
+	margin-top:10;
+}

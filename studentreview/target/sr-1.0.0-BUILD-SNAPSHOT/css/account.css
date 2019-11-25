@@ -1,0 +1,69 @@
+.album {
+	height: 100%;
+}
+
+.border {
+    width: 230;
+    height: 240;
+    border-radius: 10%;
+    border: 1px solid #dee2e6!important;
+    position: relative;
+    left: 1;
+    top: 20;
+}
+.myCourses{
+	position:relative;
+	top: 60;
+    right: 40;
+}
+#bio {
+    font-size: 2rem;
+}
+
+.bio_all{
+	position:relative;
+    top:20;
+    left:-140;
+}
+
+#all_text{
+	font-size:1.3rem;
+}
+
+.orange-link {
+	color: #dea814;
+}
+
+.orange-link.active {
+  color: #c99914;
+  text-decoration: none;
+}
+
+.orange-link:hover:not(.active) {
+  color: #c99914;
+  text-decoration: none;
+}
+
+.orange-background-link {
+	background-color: #dea814;
+}
+
+.orange-background-link.active {
+	background-color: #c99914;
+}
+
+.orange-background-link:hover:not(.active) {
+	background-color: #c99914;
+}
+
+.orange-login-link {
+	border-color: #c99914;
+}
+
+.orange-login-link.active {
+	border-color: #c99914;
+}
+
+.orange-login-link:hover:not(.active) {
+	border-color: #c99914;
+}
