@@ -35,3 +35,10 @@ Now you can open your Chrome and type http://localhost:8080/sr to start your jou
 Tests are implemented for all the domain classes and Dao classes except DataAddition(used to add sample data)
 
 Use mvn test to see if the system pass all the unit tests
+
+## Contributor
+1) Lava Shrestha
+2) Hassan Hajarat
+3) Jiyad Aglodiya
+4) Liangde Yang
+5) Peifeng Mao
